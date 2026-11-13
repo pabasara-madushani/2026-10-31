@@ -36,3 +36,21 @@ let customer = {
 }
 console.log(customer.name);
 console.log(customer.age);
+
+class customer {
+     name;
+     age;
+     isStudent;
+}
+
+constructor(name, age, isStudent) {
+    this.name = name;
+    this.age = age;
+    this.isStudent = isStudent;
+}
+
+let customer1 = new customer("Saman", 25, true);
+console.log(customer1);
+
+let customer2 = new customer("Kamal", 30, false);
+console.log(customer2);
