@@ -67,7 +67,7 @@
 
 // inside arrays define objects
 
-let student = [
+//let student = [
     {
         name: "Saman",
         age: 25,
