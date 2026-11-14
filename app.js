@@ -68,28 +68,42 @@
 // inside arrays define objects
 
 //let student = [
-    {
-        name: "Saman",
-        age: 25,
-        isStudent: true,
-        marks: [
-            {
-                subject: "Math",
-                score: 80
-            },
-            {
-                subject: "Science",
-                score: 85
-            }
-        ]
-    },
-    {
-        name: "Kamal",
-        age: 30,
-        isStudent: false
-    }
-];
+    //{
+      //  name: "Saman",
+        //age: 25,
+        //isStudent: true,
+        //marks: [
+           // {
+              //  subject: "Math",
+              //  score: 80
+            //},
+           // {
+                //subject: "Science",
+                //score: 85
+            //}
+        //]
+    //},
+    //{
+       // name: "Kamal",
+        //age: 30,
+        //isStudent: false
+    //}
+//];
 
-console.log(student);
-console.log(student[1].age);
-console.log(student[0].marks[1].mark);
+//console.log(student);
+//console.log(student[1].age);
+//console.log(student[0].marks[1].mark);
+
+//-----------Arithmetic Operators----------------
+
+// + | - | * | / | %
+let a = 10;
+
+console.log(a++);
+console.log(a++);
+
+
+let b = 3;
+
+let sum = a + b;
+console.log(sum);
