@@ -97,13 +97,24 @@
 //-----------Arithmetic Operators----------------
 
 // + | - | * | / | %
-let a = 10;
+//let a = 10;
 
-console.log(a++);
-console.log(a++);
+//console.log(a++);
+//console.log(avg++);
 
 
-let b = 3;
+//let b = 3;
 
-let sum = a + b;
-console.log(sum);
+//let sum = a + b;
+//console.log(sum);
+
+//-----------Comparison Operators----------------
+
+//== | === | != | !== | > | < | >= | <=
+// == - does not check the data type
+// === - checks the data type
+
+let x = 10;
+let y = "10";
+
+console.log(x === y);
