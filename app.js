@@ -124,8 +124,32 @@
 
 // && | || | !
 
-if (false || false) {
-    console.log("Working");
+//if (false || false) {
+ //   console.log("Working");
+//}else {
+ //   console.log("Not Working");
+//}
+
+//-----------If else ----------------
+
+let x = 10;
+let y = 20;
+
+if (x > y) {
+    console.log("X is greater than Y");
 }else {
-    console.log("Not Working");
+    console.log("x is less than Y");
+}
+
+mark = 10;
+if (mark >= 90) {
+    console.log("A+");
+}else if (mark >= 75) {
+    console.log("B");
+}else if (mark >= 65) {
+    console.log("C");
+}else if (mark >= 50) {
+    console.log("D");
+}else {
+    console.log("F");
 }
