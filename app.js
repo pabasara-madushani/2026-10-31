@@ -114,7 +114,18 @@
 // == - does not check the data type
 // === - checks the data type
 
-let x = 10;
-let y = "10";
+//let x = 10;
+//let y = "10";
 
-console.log(x === y);
+//console.log(x == y);
+//console.log(x === y);
+
+//-----------Logical Operators----------------
+
+// && | || | !
+
+if (false || false) {
+    console.log("Working");
+}else {
+    console.log("Not Working");
+}
