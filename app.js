@@ -132,24 +132,55 @@
 
 //-----------If else ----------------
 
-let x = 10;
-let y = 20;
+//let x = 10;
+//let y = 20;
 
-if (x > y) {
-    console.log("X is greater than Y");
-}else {
-    console.log("x is less than Y");
-}
+//if (x > y) {
+ //   console.log("X is greater than Y");
+//}else {
+   // console.log("x is less than Y");
+//}
 
-mark = 10;
-if (mark >= 90) {
-    console.log("A+");
-}else if (mark >= 75) {
-    console.log("B");
-}else if (mark >= 65) {
-    console.log("C");
-}else if (mark >= 50) {
-    console.log("D");
-}else {
-    console.log("F");
+//mark = 10;
+//if (mark >= 90) {
+  //  console.log("A+");
+//}else if (mark >= 75) {
+  //  console.log("B");
+//}else if (mark >= 65) {
+  //  console.log("C");
+//}else if (mark >= 50) {
+  //  console.log("D");
+//}else {
+  //  console.log("F");
+//}
+
+//-----------Switch case statement----------------
+
+let day = 1;
+
+switch (day) {
+  case 1:
+    console.log("Monday");
+    break;
+  case 2:
+    console.log("Tuesday");
+    break;
+  case 3:
+    console.log("Wednesday");
+    break;
+    case 4:
+    console.log("Thursday");
+    break;
+  case 5:
+    console.log("Friday");
+    break;
+  case 6:
+    console.log("Saturday");
+    break;
+  case 7:
+    console.log("Sunday");
+    break;
+  default:
+    console.log("Invalid day");
+    break;
 }
