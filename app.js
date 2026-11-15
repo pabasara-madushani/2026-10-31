@@ -193,38 +193,51 @@
 
 //-----------While loop----------------
 
-let i = 0;
-while (i < 5) {
-  console.log(i);
-  i++;
-}
+//let i = 0;
+//while (i < 5) {
+//  console.log(i);
+//  i++;
+//}
 
-console.log("------------------------------------");
+//console.log("------------------------------------");
 
-let k = 0;
-while (k < 5) {
-  console.log(k);
-  k++;
-}
+//let k = 0;
+//while (k < 5) {
+//  console.log(k);
+//  k++;
+//}
 
-console.log("------------------------------------");
+//console.log("------------------------------------");
 
 //-----------Do while loop----------------
 
-let j = 0;
+//let j = 0;
 
-do {
-  console.log(j);
-  j++;
+//do {
+  //console.log(j);
+  //j++;
+//}
+//while (j < 5);
+
+//console.log("------------------------------------");
+
+//let p = 0;
+//do {
+//  console.log(p);
+//  p++;
+//}
+//while (p < 5);
+
+//----------Function----------------
+
+//normal function
+function myFunction() {
+  console.log("hello world ");
 }
-while (j < 5);
+myFunction();
 
-console.log("------------------------------------");
-
-let p = 0;
-do {
-  console.log(p);
-  p++;
+//function with parameters
+function getSum(num1, num2) {
+  return  num1 + num2;
 }
-while (p < 5);
-
+console.log(getSum(10, 20));
